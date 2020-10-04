@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backeeos"
+    android:foregroundTint="#973939"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="#D32828"
+            android:buttonTint="#E1D9D9"
+            android:drawableTint="#C33333"
+            android:focusable="auto"
+            android:foregroundTint="#BD3636"
+            android:shadowColor="#812F2F"
+            android:text="Red"
+            android:textColor="#EDE0E0" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:buttonTint="#E1D0D0"
+            android:text="Blue"
+            android:textColor="#EAE3E3" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:buttonTint="#F4EFEF"
+            android:text="Yellow"
+            android:textColor="#ECE4E4" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="332dp"
+        android:layout_height="28dp"
+
+        android:layout_marginTop="80dp"
+        android:progressTint="#EA1919"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="354dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="110dp"
+        android:background="#003E5681"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="81dp"
+            android:text="25"
+            android:textColor="#BC5858"
+            android:textSize="90sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="192dp"
+            android:text="C"
+            android:textColor="#FFBC5858"
+            android:textSize="90sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="28dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="242dp"
+            android:text="o"
+            android:textColor="#FFBC5858"
+            android:textSize="36sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="336dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="20dp"
+            android:progressTint="#317E7B" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="351dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3">
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="60dp"
+            android:background="#56639BFF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="71dp"
+                android:layout_height="match_parent"
+                android:baselineAlignBottom="false"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/brn" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="203dp"
+                android:layout_height="38dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/antic"
+                android:text="Cleaning Laser Gun"
+                android:textColor="#BABAB4"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="11dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#02FFFFFF"
+                app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="349dp"
+            android:layout_height="61dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="146dp"
+            android:background="#E839598F"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/namk" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+
+                android:fontFamily="@font/antic"
+                android:text="Flirting With Aliens"
+                android:textColor="#B1B1A8"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="72dp"
+            android:background="#56639BFF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/mrt" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="212dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/antic"
+                android:text="Watching His Valentine"
+                android:textColor="#B6B6AD"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="11dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/antic"
+        android:text="My Crew:"
+        android:textColor="#B6B6B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="60dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/antic"
+        android:text="Lights:"
+        android:textColor="#F3ECEC"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
